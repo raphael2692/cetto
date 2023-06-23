@@ -1,13 +1,13 @@
-<div align="center">
+<!-- <div align="center"> -->
 
 <!-- <img src="https://raw.githubusercontent.com/raphael2692/cetto/main/assets/logo.png" alt="cetto-logo" width="150"> -->
 
-<!-- <h1>
+<h1>
  _____ _____ _____ _____ _____
 |     |   __|_   _|_   _|     |
 |   --|   __| | |   | | |  |  |
 |_____|_____| |_|   |_| |_____|
-</h1> -->
+</h1>
 
 <h1> Cetto </h1>
 
@@ -21,7 +21,7 @@
 <!-- [![PyPI stats](https://img.shields.io/pypi/dm/cetto.svg)](https://pypistats.org/packages/cetto) -->
 [![Supported Python Versions](https://img.shields.io/pypi/pyversions/cetto.svg)](https://pypi.org/project/cetto)
 
-</div>
+<!-- </div> -->
 
 Cetto is a simple wrapper around ChatGPT (via LangChain) to use ChatGPT directly from your console.
 
