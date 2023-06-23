@@ -1,16 +1,16 @@
-<!-- <div align="center"> -->
+<div align="center">
 
 <!-- <img src="https://raw.githubusercontent.com/raphael2692/cetto/main/assets/logo.png" alt="cetto-logo" width="150"> -->
 
-<h1>
+<!-- <h1>
  _____ _____ _____ _____ _____
 |     |   __|_   _|_   _|     |
 |   --|   __| | |   | | |  |  |
 |_____|_____| |_|   |_| |_____|
-</h1>
+</h1> -->
 
 <h1> Cetto </h1>
-
+<details>
 <!-- [![stars](https://img.shields.io/github/stars/raphael2692/cetto)](https://github.com/raphael2692/cetto/stargazers) -->
 <!-- [![Documentation](https://img.shields.io/badge/documentation-ReadTheDocs-blue.svg)](https://cetto.readthedocs.io/en/latest/) -->
 <!-- [![Code Coverage](https://coveralls.io/repos/github/raphael2692/cetto/badge.svg?branch=main)](https://coveralls.io/github/raphael2692/cetto?branch=main) -->
@@ -21,11 +21,12 @@
 <!-- [![PyPI stats](https://img.shields.io/pypi/dm/cetto.svg)](https://pypistats.org/packages/cetto) -->
 [![Supported Python Versions](https://img.shields.io/pypi/pyversions/cetto.svg)](https://pypi.org/project/cetto)
 
-<!-- </div> -->
+</details>
+</div>
 
 Cetto is a simple wrapper around ChatGPT (via LangChain) to use ChatGPT directly from your console.
 
-</div>
+
 <!-- <details>
 <summary><strong>Table of Contents</strong></summary>
 
