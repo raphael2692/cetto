@@ -1,23 +1,136 @@
-# ChatGPT CLI Interface (based on LangChain)
+<div align="center">
 
-As simple as possible ChatGPT CLI interface made with LangChain wrapper. 
+<img src="https://raw.githubusercontent.com/raphael2692/cetto/main/assets/logo.png" alt="cetto-logo" width="150">
 
-Edit prompt templates using .yaml files. 
+<h1> Chatto </h1>
 
-## Installation
+[![stars](https://img.shields.io/github/stars/raphael2692/cetto)](https://github.com/raphael2692/cetto/stargazers)
+<!-- [![Documentation](https://img.shields.io/badge/documentation-ReadTheDocs-blue.svg)](https://cetto.readthedocs.io/en/latest/) -->
+<!-- [![Code Coverage](https://coveralls.io/repos/github/raphael2692/cetto/badge.svg?branch=main)](https://coveralls.io/github/raphael2692/cetto?branch=main) -->
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/raphael2692/cetto/blob/main/LICENSE)
+[![Twitter](https://img.shields.io/twitter/follow/cetto_io?style=social)](https://twitter.com/intent/follow?screen_name=cetto_io)
 
-```shell
+[![PyPI version](https://badge.fury.io/py/cetto.svg)](https://pypi.org/project/cetto/)
+[![PyPI stats](https://img.shields.io/pypi/dm/cetto.svg)](https://pypistats.org/packages/cetto)
+[![Supported Python Versions](https://img.shields.io/pypi/pyversions/cetto.svg)](https://pypi.org/project/cetto/)
 
-pip install -r requirements.txt
+</div>
 
+cetto is a [FastAPI](https://github.com/tiangolo/fastapi) framework to build production-grade LLM applications.
+
+</div>
+<details>
+<summary><strong>Table of Contents</strong></summary>
+
+- [🚀 Features](#-features)
+- [❓ Why?](#-why)
+- [💾 Installation](#-installation)
+- [📍 Roadmap](#-roadmap)
+- [🤩 Stargazers](#-stargazers)
+- [🤝 Contributing](#-contributing)
+- [📝 License](#-license)
+- [✨ Want to build LLM applications with us?](#-want-to-build-llm-applications-with-us)
+
+</details>
+
+## 🚀 Features
+
+- ChatGPT in your console
+- Superfast
+- You can easily hack it and mack it yours
+- Load your template as .yaml file
+- Set chat config with .yaml file
+
+See [Roadmap](#-roadmap) for upcoming features.
+
+## ❓ Why?
+
+I like the idea of opening a new tab console and just using ChatGPT directly from the terminal. 
+
+## 💾 Installation
+
+The library is available on PyPI and can be installed via `pip`.
+
+```bash
+pip install cetto
 ```
 
-## Usage
+<!-- You can find the full documentation at [https://cetto.readthedocs.io/en/latest/](https://cetto.readthedocs.io/en/latest/). -->
 
-```shell
+<!-- ## 🔥 Build your first Langchain app
 
-python app.py
+```python
+from dotenv import load_dotenv
+from fastapi import FastAPI
+from langchain import ConversationChain
+from langchain.chat_models import ChatOpenAI
 
+from cetto import LangchainRouter
+
+load_dotenv()
+app = FastAPI()
+
+langchain_router = LangchainRouter(
+    langchain_url="/chat",
+    langchain_object=ConversationChain(
+        llm=ChatOpenAI(temperature=0), verbose=True
+    ),
+    streaming_mode=0
+  )
+app.include_router(langchain_router)
 ```
 
+See [`examples/`](https://github.com/raphael2692/cetto/blob/main/examples/README.md)
+for list of available demo examples.
 
+Create a `.env` file using `.env.sample` and add your OpenAI API key to it
+before running the examples.
+
+![demo](https://raw.githubusercontent.com/raphael2692/cetto/main/assets/demo.gif) -->
+
+## 📍 Roadmap
+
+- [] More templates
+- [] Alternative to env variable for loading ChatGPT API Key 
+- [] Alternative to env variable for loading Chatto templates and config
+<!-- - [x] Add [Gradio](https://github.com/gradio-app/gradio) UI for fast prototyping
+- [x] Add support for in-memory, Redis and [GPTCache](https://github.com/zilliztech/GPTCache) LLM caching
+- [ ] Add support for [LlamaIndex](https://github.com/jerryjliu/llama_index)
+- [ ] Add support for [Guidance](https://github.com/microsoft/guidance)
+- [ ] Add SQL database integration
+- [ ] Add support for [Rebuff](https://github.com/woop/rebuff) -->
+
+## 🤩 Stargazers
+
+Leave a ⭐ if you find this project useful.
+
+[![Star History Chart](https://api.star-history.com/svg?repos=raphael2692/cetto&type=Date)](https://star-history.com/#raphael2692/cetto&Date)
+
+## 🤝 Contributing
+
+<!-- [![Code check](https://github.com/raphael2692/cetto/actions/workflows/code-check.yaml/badge.svg)](https://github.com/raphael2692/cetto/actions/workflows/code-check.yaml)
+[![Publish](https://github.com/raphael2692/cetto/actions/workflows/publish.yaml/badge.svg)](https://github.com/raphael2692/cetto/actions/workflows/publish.yaml) -->
+
+Contributions are more than welcome! If you have an idea for a new feature or want to help improve cetto,
+please create an issue or submit a pull request on [GitHub](https://github.com/raphael2692/cetto).
+
+See [CONTRIBUTING.md](https://github.com/raphael2692/cetto/blob/main/CONTRIBUTING.md) for more information.
+
+### Contributors
+
+[![](https://img.shields.io/github/contributors-anon/raphael2692/cetto)](https://github.com/raphael2692/cetto/graphs/contributors)
+
+<a href="https://github.com/raphael2692/cetto/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=raphael2692/cetto" />
+</a>
+
+## ⚖️ License
+
+The library is released under the [MIT License](https://github.com/raphael2692/cetto/blob/main/LICENSE).
+
+<!-- ## ✨ Want to build LLM applications with us?
+
+Are you interested in building LLM applications with us? We would love to hear from you! Reach out to us on
+Twitter [@cetto_io](https://twitter.com/cetto_io).
+
+Let's connect and explore the possibilities of working together to create amazing LLM applications with cetto! -->
