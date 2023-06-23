@@ -12,7 +12,7 @@
 
 [![PyPI version](https://badge.fury.io/py/cetto.svg)](https://pypi.org/project/cetto/)
 [![PyPI stats](https://img.shields.io/pypi/dm/cetto.svg)](https://pypistats.org/packages/cetto)
-[![Supported Python Versions](https://img.shields.io/pypi/pyversions/cetto.svg)](https://pypi.org/project/cetto/)
+[![Supported Python Versions](https://img.shields.io/pypi/pyversions/cetto.svg)](https://pypi.org/project/cetto)
 
 </div>
 
