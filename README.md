@@ -2,20 +2,20 @@
 
 <!-- <img src="https://raw.githubusercontent.com/raphael2692/cetto/main/assets/logo.png" alt="cetto-logo" width="150"> -->
 
-<h1>
+<!-- <h1>
  _____ _____ _____ _____ _____
 |     |   __|_   _|_   _|     |
 |   --|   __| | |   | | |  |  |
 |_____|_____| |_|   |_| |_____|
-</h1>
+</h1> -->
 
 <h1> Cetto </h1>
 
-[![stars](https://img.shields.io/github/stars/raphael2692/cetto)](https://github.com/raphael2692/cetto/stargazers)
+<!-- [![stars](https://img.shields.io/github/stars/raphael2692/cetto)](https://github.com/raphael2692/cetto/stargazers) -->
 <!-- [![Documentation](https://img.shields.io/badge/documentation-ReadTheDocs-blue.svg)](https://cetto.readthedocs.io/en/latest/) -->
 <!-- [![Code Coverage](https://coveralls.io/repos/github/raphael2692/cetto/badge.svg?branch=main)](https://coveralls.io/github/raphael2692/cetto?branch=main) -->
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/raphael2692/cetto/blob/main/LICENSE)
-[![Twitter](https://img.shields.io/twitter/follow/cetto_io?style=social)](https://twitter.com/intent/follow?screen_name=cetto_io)
+<!-- [![Twitter](https://img.shields.io/twitter/follow/cetto_io?style=social)](https://twitter.com/intent/follow?screen_name=cetto_io) -->
 
 [![PyPI version](https://badge.fury.io/py/cetto.svg)](https://pypi.org/project/cetto/)
 <!-- [![PyPI stats](https://img.shields.io/pypi/dm/cetto.svg)](https://pypistats.org/packages/cetto) -->
