@@ -23,10 +23,10 @@
 
 </div>
 
-Cetto is a [FastAPI](https://github.com/tiangolo/fastapi) framework to build production-grade LLM applications.
+Cetto is a simple wrapper around ChatGPT (via LangChain) to use ChatGPT directly from your console.
 
 </div>
-<details>
+<!-- <details>
 <summary><strong>Table of Contents</strong></summary>
 
 - [🚀 Features](#-features)
@@ -38,7 +38,7 @@ Cetto is a [FastAPI](https://github.com/tiangolo/fastapi) framework to build pro
 - [📝 License](#-license)
 - [✨ Want to build LLM applications with us?](#-want-to-build-llm-applications-with-us)
 
-</details>
+</details> -->
 
 ## 🚀 Features
 
