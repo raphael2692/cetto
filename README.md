@@ -1,8 +1,15 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/raphael2692/cetto/main/assets/logo.png" alt="cetto-logo" width="150">
+<!-- <img src="https://raw.githubusercontent.com/raphael2692/cetto/main/assets/logo.png" alt="cetto-logo" width="150"> -->
 
-<h1> Chatto </h1>
+<h1>
+ _____ _____ _____ _____ _____
+|     |   __|_   _|_   _|     |
+|   --|   __| | |   | | |  |  |
+|_____|_____| |_|   |_| |_____|
+</h1>
+
+<h1> Cetto </h1>
 
 [![stars](https://img.shields.io/github/stars/raphael2692/cetto)](https://github.com/raphael2692/cetto/stargazers)
 <!-- [![Documentation](https://img.shields.io/badge/documentation-ReadTheDocs-blue.svg)](https://cetto.readthedocs.io/en/latest/) -->
@@ -11,12 +18,12 @@
 [![Twitter](https://img.shields.io/twitter/follow/cetto_io?style=social)](https://twitter.com/intent/follow?screen_name=cetto_io)
 
 [![PyPI version](https://badge.fury.io/py/cetto.svg)](https://pypi.org/project/cetto/)
-[![PyPI stats](https://img.shields.io/pypi/dm/cetto.svg)](https://pypistats.org/packages/cetto)
+<!-- [![PyPI stats](https://img.shields.io/pypi/dm/cetto.svg)](https://pypistats.org/packages/cetto) -->
 [![Supported Python Versions](https://img.shields.io/pypi/pyversions/cetto.svg)](https://pypi.org/project/cetto)
 
 </div>
 
-cetto is a [FastAPI](https://github.com/tiangolo/fastapi) framework to build production-grade LLM applications.
+Cetto is a [FastAPI](https://github.com/tiangolo/fastapi) framework to build production-grade LLM applications.
 
 </div>
 <details>
@@ -100,11 +107,10 @@ before running the examples.
 - [ ] Add SQL database integration
 - [ ] Add support for [Rebuff](https://github.com/woop/rebuff) -->
 
-## 🤩 Stargazers
+<!-- ## 🤩 Stargazers -->
 
-Leave a ⭐ if you find this project useful.
 
-[![Star History Chart](https://api.star-history.com/svg?repos=raphael2692/cetto&type=Date)](https://star-history.com/#raphael2692/cetto&Date)
+<!-- [![Star History Chart](https://api.star-history.com/svg?repos=raphael2692/cetto&type=Date)](https://star-history.com/#raphael2692/cetto&Date) -->
 
 ## 🤝 Contributing
 
@@ -127,6 +133,8 @@ See [CONTRIBUTING.md](https://github.com/raphael2692/cetto/blob/main/CONTRIBUTIN
 ## ⚖️ License
 
 The library is released under the [MIT License](https://github.com/raphael2692/cetto/blob/main/LICENSE).
+
+Remember to leave a ⭐ if you find this project useful.
 
 <!-- ## ✨ Want to build LLM applications with us?
 
